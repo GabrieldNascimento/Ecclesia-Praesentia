@@ -1,9 +1,15 @@
+import "./EventCard.css";
+
 export default function EventCard({ title, date, description }) {
   return (
-    <div style={{ border: "1px solid #ddd", padding: "16px", margin: "10px" }}>
+    <article className="event-card">
+      <span className="event-date">{date}</span>
+
       <h3>{title}</h3>
-      <p>{date}</p>
+
       <p>{description}</p>
-    </div>
+
+      <button>Ver detalhes</button>
+    </article>
   );
 }

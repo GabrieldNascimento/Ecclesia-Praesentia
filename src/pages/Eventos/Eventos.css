@@ -1,0 +1,40 @@
+.events-page {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+
+  color: white;
+}
+
+.events-content {
+  flex: 1;
+
+  padding: calc(80px + 2rem) 2rem 2rem;
+}
+
+.events-header {
+  text-align: center;
+
+  margin-bottom: 3rem;
+}
+
+.events-header h1 {
+  font-size: 3rem;
+
+  margin-bottom: 1rem;
+}
+
+.events-header p {
+  opacity: 0.8;
+}
+
+.events-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 2rem;
+}

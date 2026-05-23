@@ -1,13 +1,21 @@
+import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
-import EventsSection from "../../components/EventsSection/EventsSection";
 import DonationsCTA from "../../components/DonationsCTA/DonationsCTA";
+import Footer from "../../components/Footer/Footer";
+
+import "./Home.css";
 
 export default function Home() {
   return (
-    <>
-      <Hero />
-      <EventsSection />
-      <DonationsCTA />
-    </>
+    <div className="home">
+      <Navbar />
+
+      <main className="home-content">
+        <Hero />
+        <DonationsCTA />
+      </main>
+
+      <Footer />
+    </div>
   );
 }

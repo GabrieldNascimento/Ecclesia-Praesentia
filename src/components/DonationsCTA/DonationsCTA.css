@@ -1,0 +1,47 @@
+.donations {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 1rem 2rem;
+
+  color: white;
+}
+
+.donations h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.donations p {
+  opacity: 0.85;
+
+  margin-bottom: 1.5rem;
+
+  line-height: 1.5;
+}
+
+.donations-button {
+  padding: 0.8rem 1.8rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  backdrop-filter: blur(10px);
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.donations-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
